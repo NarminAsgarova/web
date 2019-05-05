@@ -1,0 +1,149 @@
+body {
+  background-color: #EAF6F6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+  line-height: 2;
+}
+/*this text-align works for all elements in body that do not have specified width. If you give width for any element,
+text-align won't work for that element*/
+/*in general, everuthing done to the body affects all elements of body section in the same way*/
+h1 {
+  font-size: 5.625rem; /*16px = 100% = 1em = 1rem ; em, rem % change accordingly if you change zoom of browser, px does not. Recommended do always use rem */
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+  height: 150px;
+}
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #D9D9D9;
+  border-width: 6px;
+  width: 5%;
+}
+.top-container {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.web-developer {
+  font-size: 2rem;
+}
+.top-cloud1 {
+  position: absolute;
+  right: 180px;
+  top: 70px;
+}
+.top-cloud2 {
+  position: absolute;
+  right: 260px;
+  top: 90px;
+}
+.bottom-cloud1 {
+  position: absolute;
+  left: 180px;
+  bottom: 190px;
+}
+.bottom-cloud2 {
+  position: absolute;
+  left: 260px;
+  bottom: 170px;
+}
+.bottom-cloud3 {
+  position: absolute;
+  right: 400px;
+  bottom: 20px;
+}
+.profile {
+  margin: 100px auto;
+}
+.girl-img {
+  width: 13%;
+}
+.intro {
+  width: 40%;
+  margin: auto;
+}
+.skills {
+  margin: 100px auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+.pie-chart-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.idea-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.contact-me {
+  margin: 100px auto;
+}
+.invitation {
+  width: 40%;
+  margin: 0 auto 60px auto;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999E);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999E);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999E);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #EAF6F6;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container {
+  background-color: #66BFBF;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0 20px;
+}
+.footer-link:hover {
+  color: #EAF6F6;
+}
+.copy-right {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-top: 25px;
+}
